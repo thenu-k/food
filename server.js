@@ -24,5 +24,5 @@ app.get('/burgerImage', (req, res)=> {
 })
 app.get('/burger00', (req, res)=> {
     console.log("Requested Burger Image")
-    res.sendFile('C:\\Users\\Thenu\\code\\portfolioWebsites\\food\views\\Assets\\burger00.jpg')
+    res.sendFile('C:\\Users\\Thenu\\code\\portfolioWebsites\\food\\views\\Assets\\burger00.jpg')
 })
