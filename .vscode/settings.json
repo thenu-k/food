@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bd32428c-5339-4c97-ac99-13dfc3945333/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/thenu-kal-00",
+    "appService.deploySubpath": "."
+}

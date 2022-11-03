@@ -46,7 +46,7 @@
     }
     .Food01 .text h3{
         color: inherit;
-        width: 100%;
+        width: auto;
         font-size: 1em;
         font-family: inherit;
         margin-bottom: 40px;
@@ -69,5 +69,27 @@
     .Food01 .text button:hover{
         opacity: 0.8;
         cursor: pointer;
+    }
+</style>
+<style>
+        @media all and (max-width: 500px){
+            .Food01.outer.main{
+                flex-direction: column;
+            }
+            .Food01 .image.outer{
+                width: 90%;
+                height: 80vw;
+                margin: 20vw 0 10vw 0;
+            }
+            .Food01 .text.outer{
+                margin: 0 0 20vw 0;
+                width: 85%;
+                height: fit-content;
+                align-items: center;
+            }
+            .Food01 .text h3, .Food01 .text p, .Food01 .text button{
+                /* font-size: 1.3em; */
+                text-align: center;
+            }
     }
 </style>
