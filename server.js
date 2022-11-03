@@ -19,6 +19,10 @@ app.get('/landingImage', (req, res)=> {
     res.sendFile('C:\\Users\\Thenu\\code\\portfolioWebsites\\food\\views\\Assets\\steak01.jpg')
 })
 app.get('/burgerImage', (req, res)=> {
-    console.log("Requested Burger Image")
+    console.log("Requested Food Image")
     res.sendFile('C:\\Users\\Thenu\\code\\portfolioWebsites\\food\\views\\Assets\\food01.jpg')
+})
+app.get('/burger00', (req, res)=> {
+    console.log("Requested Burger Image")
+    res.sendFile('C:\\Users\\Thenu\\code\\portfolioWebsites\\food\views\\Assets\\burger00.jpg')
 })
