@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Der Essensort | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="center">
+    <!-- Landing Section -->
+        <%- include('./Home/Landing/Landing.ejs') %>
+    <!-- /Landing Section -->
+    <!-- Section 1  -->
+        <%- include('./Home/Food01/Food01.ejs') %>
+    <!-- /Section 1 -->
+</body>
+<style>
+    *{
+        margin: 0;
+        border: 0;
+        font-family: 'Montserrat', sans-serif;
+    }
+    body, html{
+        width: 100%;
+        height: fit-content;
+    }
+    body{
+        flex-direction: column;
+    }
+    .center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+</html>
