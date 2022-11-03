@@ -1,0 +1,54 @@
+<section class="Food03 main outer center" id="reservations">
+    <div class="left center">
+        <h3 class='spaceBelow'>
+            RESERVE A TABLE
+        </h3>
+        <p class='spaceBelow'>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet, impedit. Illo earum eum architecto non quidem, sequi aut. Atque, rem.
+        </p>
+        <p>
+            +44 7123 456789 
+            <br>
+            lorem@ipsum.com
+        </p>
+    </div>
+    <div class="right" id="bookingjs">
+
+    </div>
+</section>
+
+<style>
+    .Food03.main.outer{
+        width: 100%;
+        background-color: #0a0a0a;
+        justify-content: space-evenly;
+        color: white;
+        font-size: 20px;
+    }
+    .Food03 .left{
+        width: 30%; 
+        height: 500px;
+        margin: 100px 0;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 1.4;
+    }
+    .Food03 .left .spaceBelow{
+        margin-bottom: 40px;
+    }
+    .Food03 .right{
+        width: 40%;
+        height: 500px;
+        border:0; margin: 0;
+        /* background-color: green; */
+    }
+</style>
+<script type="text/javascript" src="https://cdn.timekit.io/booking-js/v3/booking.min.js"></script>
+<script>
+    var widget = new TimekitBooking();
+    widget.init({
+      app_key: 'test_widget_key_9PSBiY2z8iLHdIMbWhPs8WhOpaifhP1a',
+      project_id: 'e02fc0af-4bd0-4644-a677-3ba4e818ff34'
+      // optional configuration here.. (read more under: configuration)
+    });
+ </script>
