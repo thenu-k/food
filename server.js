@@ -18,15 +18,15 @@ app.get('/', Route_HomePage)
 //Images
 app.get('/landingImage', (req, res)=> {
     console.log('Requested Image')
-    res.sendFile('C:\\Users\\Thenu\\code\\portfolioWebsites\\food\\views\\Assets\\steak01.jpg')
+    res.sendFile(__dirname+'\\views\\Assets\\steak01.jpg')
 })
 app.get('/burgerImage', (req, res)=> {
     console.log("Requested Food Image")
-    res.sendFile('C:\\Users\\Thenu\\code\\portfolioWebsites\\food\\views\\Assets\\food01.jpg')
+    res.sendFile(__dirname+'\\views\\Assets\\food01.jpg')
 })
 app.get('/burger00', (req, res)=> {
     console.log("Requested Burger Image")
-    res.sendFile('C:\\Users\\Thenu\\code\\portfolioWebsites\\food\\views\\Assets\\burger00.jpg')
+    res.sendFile(__dirname+'\\views\\Assets\\burger00.jpg')
 })
 
 //Github test
