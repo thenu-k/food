@@ -3,6 +3,7 @@ const session = require('express-session')
 const CONFIG = require('./server.config')
 require('dotenv').config();
 const PORT = process.env.PORT || 80
+var path = require('path');
 
 //Routes 
 const Route_HomePage = require('./routes/Route_HomePage')
