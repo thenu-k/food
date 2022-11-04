@@ -27,6 +27,7 @@
     }
     .Food03 .left{
         width: 30%; 
+        max-width: 500px;
         height: 500px;
         margin: 100px 0;
         flex-direction: column;
@@ -42,6 +43,21 @@
         border:0; margin: 0;
         /* background-color: green; */
     }
+</style>
+<style>
+        @media all and (max-width: 1000px){
+            .Food03.main.outer{
+                align-items: center;
+                text-align: center;
+            }
+            .Food03 .left{
+                align-items: center;
+                width: 80%;
+            }
+            .Food03 .right{
+                display: none;
+            }
+        }
 </style>
 <script type="text/javascript" src="https://cdn.timekit.io/booking-js/v3/booking.min.js"></script>
 <script>
