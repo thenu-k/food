@@ -1,12 +1,14 @@
 const express = require('express')
 const session = require('express-session')
 const CONFIG = require('./server.config')
+require('dotenv').config();
+const PORT = process.env.PORT || 80
 
 //Routes 
 const Route_HomePage = require('./routes/Route_HomePage')
 
 let app = express()
-app.listen(80, () => {console.log(`Restaurant Server Running On Port ${80}`)})
+app.listen(PORT, () => {console.log(`Server Running On Port ${PORT}`)})
 app.use(express.static(__dirname + `\\views\\Pages`))
 app.set('view engine', 'ejs')
 
