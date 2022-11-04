@@ -18,15 +18,13 @@ app.get('/', Route_HomePage)
 //Images
 app.get('/landingImage', (req, res)=> {
     console.log('Requested Image')
-    res.sendFile(__dirname+'\\views\\Assets\\steak01.jpg')
+    res.sendFile(path.join(__dirname, 'views', 'Assets', 'steak01.jpg'))
 })
 app.get('/burgerImage', (req, res)=> {
     console.log("Requested Food Image")
-    res.sendFile(__dirname+'\\views\\Assets\\food01.jpg')
+    res.sendFile(path.join(__dirname, 'views', 'Assets', 'food01.jpg'))
 })
 app.get('/burger00', (req, res)=> {
     console.log("Requested Burger Image")
-    res.sendFile(__dirname+'\\views\\Assets\\burger00.jpg')
+    res.sendFile(path.join(__dirname, 'views', 'Assets', 'burger00.jpg'))
 })
-
-//Github test
